@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    display: flex;
+    background-color: rgb(0,158,95);
+    width: 100%;
+    height: 55px;
+    position: fixed;
+}
+.header img{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    left: 25px;
+}
+.header ul{
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    right: 20px;
+}
+.header-menu a:hover{
+    color: rgba(0, 0, 0, 0.141);
+}
+.header li{
+    padding: 17px 11px 17px 11px;
+}
+.header a{
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+.page1{
+    width: 100%;
+    height: 850px;
+    display: flex;
+}
+.page1-left{
+    width: 30%;
+    height: 100px;
+}
+.page1-right{
+    width: 70%;
+    height: 100%;
+}
+.overlay{
+    height: 1700px;
+    width: 100%;
+    background-color: aqua;
+}
+.recepie{
+    width: 100%;
+    height: 40%;
+}
+.all-recepies{
+    height: 34%;
+    width: 100%;
+}
+.page1-right{
+    background-image: url(images/7up_featured.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.play-btn{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.page1-left img{
+    vertical-align: middle;
+    width: 100%;
+    margin-top: 100px;
+}
+.page1-left h2{
+    color: #009e5f;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4px, 0px, 10px;
+    padding-bottom: 30px;
+}
+.explore{
+    color: #009e5f;
+    border: solid 3px #009e5f;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 900;
+    font-size: 25px;
+    align-items: center;
+}
+
+.page1-left:hover{
+    .explore{
+        background-color: #009e5f;
+        color: white;
+    }
+    transition: all;
+    }
+.page-2{
+    display: flex;
+    width: 100%;
+    height: 900px;
+}
+.page-2 img{
+    height: 100%;
+    width: 100%;
+}
+.content-2{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+    color: white;
+}
+.content-2{
+    h1{
+        font-size: 66px;
+font-weight: 700;
+    }
+}
+.content-2 p{
+    font-size: 40px;
+}
+.content-2 a{
+    text-decoration: none;
+    color: #009e5f;
+    padding: 40px;
+    margin-top: 30px;
+border: solid 5px #009e5f;
+position: absolute;
+background-color: white;
+font-size: 30px;
+font-weight: 200;
+}
+.cocktail{
+    height: 38%;
+    width: 100%;
+    background-image: url(images/module_cocktail_m.jpg);
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+.cocktail-btn{
+display: inline-block;
+background-color: palevioletred;
+font-size: 40px;
+text-transform: uppercase;
+color: white;
+padding: 20px 20px 20px;
+font-weight: 700;
+}
+.cocktail :hover{
+    cocktail-btn{
+        transform: scale();
+    }
+}
+.recipes{
+    height: 40%;
+    width: 100%;
+    background-image: url(images/cooking.jpg);
+}
+.recipe{
+width: 100%;
+height: 45%;
+background-image: url(images/cooking.jpg);
+display: flex;
+background-position: center;
+justify-content: center;
+align-items:center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+}
+.recipes-btn{
+    display: inline-block;
+    background-color: rgb(80, 216, 80);
+    font-size: 40px;
+    text-transform: 40px;
+    text-transform: uppercase;
+    color: white;
+    padding: 20px 20px 20px;
+    font-weight: 700;
+}
+.recipes :hover{
+recipes-btn{
+    transform: scale();
+}
+}
+.all-recipes{
+width: 100%;
+height: 45%;
+background-image: url(images/module_seeall.jpg);
+display: flex;
+background-position: center;
+background-size: cover;
+justify-content: center;
+align-items: center;
+background-attachment: fixed;
+}
+.all-recipes-btn{
+    display: inline-block;
+    background-color: palevioletred;
+    font-size: 40px;
+    text-transform: 40px;
+    text-transform: uppercase;
+    color: white;
+    padding: 20px 20px 20px;
+    font-weight: 700;
+}
+.all-recipes :hover{
+    recipes-btn{
+        transform: scale();
+    }
+}
+.overlay a{
+    text-decoration: none;
+    color: white;
+}
+.items{
+    height: 600px;
+    width: 300%;
+    background-size: cover;
+}
+.footer{
+    height: 800px;
+    width: 100%;
+    background-image: url(images/footer-bg\ .jpg);
+    display: flex;
+    background-size: cover;
+    align-content: flex-end;
+}
